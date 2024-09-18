@@ -1,7 +1,9 @@
 /* INDEX CSS */
 
 /* Reset básico: remove margin */
+
 * {
+    
     margin: 0; /* Removido o "%" desnecessário */
     padding: 0; /* Removido o "%" desnecessário */
     box-sizing: border-box;
@@ -9,6 +11,7 @@
   
   /* Estilos gerais do corpo da página */
   body {
+    background-color: rgb(211, 206, 206);
     font-family: Arial, sans-serif; /* Define a fonte */
     line-height: 1.5; /* Define a altura da linha */
   }
@@ -20,6 +23,7 @@
     height: 65px; /* Espaçamento vertical */
   }
   
+
   /* Remove os marcadores da lista e centraliza os itens */
   nav ul {
     list-style: none; /* Remove os pontos da lista */
@@ -90,6 +94,8 @@
   
   /* Estilo da imagem */
   main img {
+    border: black solid ;
+    border-radius: 120px;
     max-width: 100%; /* A imagem não ultrapassa a largura da tela */
     height: auto; /* Mantém a proporção da imagem */
     margin-top: 20px; /* Espaçamento acima da imagem */
@@ -126,7 +132,7 @@
 
 
 .about, .mission, .team{
-  padding: 40px, 20px;
+  padding: 20px, 20px;
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
@@ -145,6 +151,7 @@ p{
   margin-bottom: 20px;
 }
 
+
 .mission-values{
   display: flex;
   flex-wrap: wrap;
@@ -160,6 +167,7 @@ p{
   border-radius:8px;
   box-shadow: 0 2px, 8px rgb(0,0,0,0,1);
   text-align: left;
+  margin: 10px;
 }
 
 .mission-item h3{
@@ -182,8 +190,10 @@ p{
 .team{
   background-color: #f9f9f9;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
 }
+
+
 
 
 
@@ -196,9 +206,12 @@ p{
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
+  border: 3px solid black;
+  border-radius: 8px;
 
 }
 .contact form{
+  
   display: flex;
   flex-direction:column;
   gap: 15px;
@@ -229,13 +242,13 @@ p{
 
 .contact button{
   padding: 10px 15px;
-  background-color: #333;
   border-radius: 10px;
-  background-color: gray;
-  border: 3px solid black;
+ 
+  
 }
 
 .contact button:hover{
+  color: white;
   background-color: #555;
 
 }
@@ -266,9 +279,10 @@ p{
   flex: 1;
   max-width: 500px;
   height: 300px;
-  background-color: #ac4444;
+  background-color: #f4f4f4;
   padding:20px;
-  border-radius:8px;
+  border: 3px solid black;
+  border-radius: 8px;
   box-shadow: 0 2px, 8px rgb(0,0,0,0,1);
   text-align: left;
 }
@@ -280,4 +294,97 @@ p{
 .supbox li{
   padding: 5px; 
   margin-left: 10px;
+}
+
+
+
+/* Desenvolvimento CSS */
+
+.imgdiv{
+  display: flex;
+}
+
+.devbox{
+  margin: 5px;
+  align-content: end;
+  height: 750px;
+  width : 35%;
+  border: 3px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.divtext{
+  padding: 10px;
+  height: 70%;
+  width : 100%;
+  border: 3px solid black;
+  border-radius: 20px;
+
+}
+
+.divtext h2{
+  text-align: center;
+}
+
+.devbox img{
+  border-radius: 20px;
+  border: 3px solid black;
+  margin: 3% 140px;
+  height: 220px;
+  width: 300px;
+}
+
+
+
+/* Consultoria CSS*/
+
+
+
+.consulDiv{
+  display: flex;
+}
+
+.consulBox{
+  margin: 5px;
+  align-content: end;
+  height: 750px;
+  width : 35%;
+  border: 3px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.consulBox a{
+  text-align: end;
+}
+
+.textConsulBox{
+  padding: 10px;
+  height: 70%;
+  width : 100%;
+  border: 3px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+.divtext h3{
+  text-align: center;
+}
+
+.consulBox img{
+  border-radius: 20px;
+  border: 3px solid black;
+  margin: 3% 140px;
+  height: 220px;
+  width: 300px;
 }
