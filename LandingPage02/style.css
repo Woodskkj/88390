@@ -190,8 +190,15 @@ p{
 .team{
   background-color: #f9f9f9;
   border-radius: 10px;
+<<<<<<< HEAD
   padding: 10px;
 }
+=======
+  padding: 5px;
+}
+
+
+>>>>>>> d6fb7fa520dca2ab72c330567ef42143cc79fd2c
 
 
 
@@ -279,10 +286,16 @@ p{
   flex: 1;
   max-width: 500px;
   height: 300px;
+<<<<<<< HEAD
   background-color: #f4f4f4;
   padding:20px;
   border: 3px solid black;
   border-radius: 8px;
+=======
+  background-color: #ac4444;
+  padding:20px;
+  border-radius:8px;
+>>>>>>> d6fb7fa520dca2ab72c330567ef42143cc79fd2c
   box-shadow: 0 2px, 8px rgb(0,0,0,0,1);
   text-align: left;
 }
@@ -295,6 +308,7 @@ p{
   padding: 5px; 
   margin-left: 10px;
 }
+<<<<<<< HEAD
 
 
 
@@ -388,3 +402,5 @@ p{
   height: 220px;
   width: 300px;
 }
+=======
+>>>>>>> d6fb7fa520dca2ab72c330567ef42143cc79fd2c
